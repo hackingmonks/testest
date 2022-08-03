@@ -1,0 +1,22 @@
+
+Linux commands -
+pwd - check which dir you are in
+cd .. - go back one step in a dir
+cd ✓/anywhere/ - jump in any dir
+rmdir - remove a dir
+cp file.txt path/ - copy a file
+mv file.txt path/ - move a file
+rm - remove a file
+passwd - change password
+man ls - help for commands
+chmod 777 file.txt - get full permission
+echo "hello" > hey.txt - create a file
+
+Grepping -
+cat file.txt | grep "access_token" - gets the line in a text file
+cat file.txt | gerp "access_token" | cut -d " " -f 2 - get a word in a line
+(here 2 will cut the word after the second space)
+cat file.txt | gerp "access_token" | cut -d " " -f 2 | tr -d "remove_char" -
+to remove a charector in a word
+(here remove_char is the charector in the word)
+
